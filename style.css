@@ -56,15 +56,25 @@ body{
 .topname{
     width: 15%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     color: #00CA4E;
     font-size: 1.2rem;
     font-weight: 600;
 }
-.profileimage{
+.firsthalf,.secondhalf{
+    width: 50%;
+    height: 100%;
     display: flex;
-    justify-content: center;align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.activitylogfirst{
+    width: 70%;
+    height: 90%;
+    background-color:rgb(32, 32, 32) ;
+    border-radius: 20px;
+
 }
 .mainbar{
     width: 100%;
